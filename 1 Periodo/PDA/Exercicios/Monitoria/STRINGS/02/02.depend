@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1447453614 source:h:\monitoria\strings\02\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

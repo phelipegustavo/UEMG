@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1448649753 source:c:\users\pheli\google drive\uemg\1º periodo\pda\exercicios\monitoria\strings\05\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<string.h>
+
+1448649997 source:c:\users\pheli\desktop\untitled1.c
+	<conio.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+

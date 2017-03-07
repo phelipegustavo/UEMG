@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1447872740 source:c:\users\pheli\desktop\exercicio 3 pda\03\03.cpp
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

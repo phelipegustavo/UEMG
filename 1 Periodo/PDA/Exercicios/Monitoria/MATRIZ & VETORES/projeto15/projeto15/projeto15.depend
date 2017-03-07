@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1447368294 source:h:\monitoria\projeto15\projeto15\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
