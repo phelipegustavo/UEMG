@@ -18,6 +18,7 @@ public class Dicionario {
         for (int i = posicao; i < quantPalavra; i++) {
             this.palavra[i] = this.palavra[i + 1];
         }
+        quantPalavra--;
     }
 
     public void alteraQuantPalavra(int quantPalavra) {

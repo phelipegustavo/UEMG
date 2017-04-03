@@ -46,16 +46,20 @@ public class Exercicio02 {
                     int pos = scanner.nextInt();
                     System.out.println("Significado: ");
                     dicionario.palavra[pos].incluiSignificado(scanner.next());
+                    break;
                 case 4:
                     System.out.println("Informe a quantidade: ");
                     dicionario.setQuantPalavra(scanner.nextInt());
+                    break;
                 case 5:
                     dicionario.imprimeDicionario();
                     break;
                 case 0:
                     System.out.println("Saindo...");
+                    break;
                 default:
                     System.out.println("Opção Inválida!");
+                    break;
             }
         }
 
