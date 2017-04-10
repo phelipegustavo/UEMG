@@ -28,7 +28,7 @@ int main() {
     /*Receber Valores*/
     for (int i = 0; i < LINHAS; i++) {
         for (int j = 0; j < COLUNAS; j++) {
-            //printf("Informe o valor do elemento A[%d][%d]: ", i + 1, j + 1);
+            printf("Informe o valor do elemento A[%d][%d]: ", i + 1, j + 1);
             scanf("%lf", &AB[i][j]);
         }
     }
@@ -83,9 +83,8 @@ void imprimirResultado(double AB[LINHAS][COLUNAS]) {
         x[i] = (AB[i][N] - soma) / AB[i][i];
     }
 
-    //printf("Solução: \n");
+    printf("Solução: \n");
     for (int i = 0; i < N; i++) {
-        //printf("x%d: %f \n", i + 1, x[i]);
-        printf("%lf\n", x[i]);
+        printf("x%d: %f \n", i + 1, x[i]);
     }
 }
