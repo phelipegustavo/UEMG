@@ -23,7 +23,7 @@ class Index(object):
     TF_DIRETORIO        = "tf/"
 
     def __init__(self, arquivo):
-        self.simbolos   = "\"\'\\$%!#*()_+={}[]<>ªº,.:;/|"
+        self.simbolos   = "\"\'\\/|’‘’“”•$&@%!?#§*(){}[]<>_–+±=ªº~^`´¨£¢¬,.¡¿:;1234567890"
         self.texto      = ""
         self.palavras   = []
         self.indice     = {}
@@ -41,7 +41,6 @@ class Index(object):
         #Remover Titulo e Autor
         self.texto.pop(0)
         self.texto.pop(0)
-
         self.texto = "".join(self.texto)
         # Remover simbolos e separar palavras
         for s in self.simbolos:
