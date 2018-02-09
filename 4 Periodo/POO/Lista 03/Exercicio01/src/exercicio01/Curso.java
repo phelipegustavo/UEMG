@@ -30,10 +30,14 @@ public class Curso {
     public void excluiTurma(int posicao) {
         if (turmas[posicao] != null) {
             turmas[posicao] = null;
+          
             //add (for) item->item->null--item
             System.out.println("Turma Excluida com sucesso");
         } else {
             System.out.println("Impossível excluir turma");
+            System.out.println("Turma excluida com sucesso");
+        } else {
+            System.out.println("Impossível excluida turma");
         }
     }
     
