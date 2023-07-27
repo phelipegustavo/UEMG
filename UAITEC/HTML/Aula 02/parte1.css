@@ -1,0 +1,16 @@
+a{
+	color: red;
+	text-decoration: none;
+}
+h1{
+	font-family: Helvetica, sans-serif;
+}
+#segundo{
+	color: green;
+}
+.link{
+	color: orange;
+}/*
+body p a.link{
+	color: orange;
+}*/

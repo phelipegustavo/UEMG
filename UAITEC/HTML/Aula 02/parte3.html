@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Formulário</title>
+		<meta charset = "utf-8"/>
+		<link rel="stylesheet" type="text/css" href="parte3.css"/>
+	</head>
+	
+	<body>
+		<form action="#" method="get">
+			<label for="nome">Nome</label>
+			<input id="nome" type="text" placeholder="Digite seu nome" />
+			
+			<label>Você gostou do site?</label>
+			<input type="radio" name="opção" checked = "checked" value="Sim">Sim
+			<input type="radio" name="opção" value="Não">Não
+			
+			<label>Você quer aprender mais sobre:</label>
+			<input type="checkbox" name="html" >HTML
+			<input type="checkbox" name="CSS">CSS
+			<input type="checkbox" name="PHP">PHP
+			
+			<label for="mensagem">Mensagem:</label>
+			<textarea id = "mensagem" name="msg"></textarea>
+			
+			<input type="submit" value="Enviar"/>
+		</form>
+	</body>
+</html>
