@@ -1,0 +1,108 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc} %colocar os acentos padrão brasileiro
+\usepackage[T1]{fontenc}
+\usepackage[portuguese]{babel}
+\usepackage{graphicx}
+\usepackage{hyphenat}
+\hyphenation{mate-mática recu-perar}
+%\documentclass[handout,t]{beamer}
+\batchmode
+% \usepackage{pgfpages}
+% \pgfpagesuselayout{4 on 1}[letterpaper,landscape,border shrink=5mm]
+\usepackage{amsmath,amssymb,enumerate,epsfig,bbm,calc,color,ifthen,capt-of}
+\usetheme{Berlin}
+%\usetheme{AnnArbor}
+\usecolortheme{mit}
+
+
+%Sumário do pdf **************************************
+
+\title{Escolha do Sistema operacional}
+\author[ALDO-GUSTAVO-PHELIPE]{Aldo \and Gustavo \and Phelipe}
+\date{\today}
+
+%*************************************************************
+%imagens que ficarão fixas em baixo
+\pgfdeclareimage[height=0.5cm]{uemg-logo}{uemg-logo.pdf} % tamanho da imagem
+\logo{\pgfuseimage{uemg-logo}\hspace*{0.3cm}} %margem direita
+
+
+\AtBeginSection[]
+{
+	
+	
+	\begin{frame}<beamer>
+	\frametitle{Sumário}
+	\tableofcontents[currentsection]
+\end{frame}
+}
+
+
+
+\logo{\includegraphics[scale=0.2]{uemg-logo.jpg}}
+
+
+
+
+
+
+
+
+
+
+\begin{document} %INICIO DOCUMENTO
+
+
+\frame{\titlepage}
+\section[Sumário]{}
+
+\begin{frame}{Sumário}
+\tableofcontents
+\end{frame}
+
+
+%------------------------------------
+\section{Manjaro}
+\subsection{Prós}
+\begin{frame}{Prós}
+\begin{itemize}
+\item <1->Interface amigável.
+\item <2->Comunidade ativa.
+\item <3->Sistema operacional estável.
+\item <4->Rolling Realese( faz atualizações para melhorias).
+
+\end{itemize}
+\end{frame}
+
+\subsection{Contras}
+\begin{frame}{Contras}
+\begin{itemize}
+\item <1->Suporte a computadores antigos(pode deixar computador lento).
+\item <2->Suporte para alguns drive com placa de vídeo, webcam, placa de som podem não ser reconhecido quando computador inicia.
+
+
+
+
+\end{itemize}
+\end{frame}
+
+
+
+%--------------------------------------
+\section{Conclusão}
+\subsection{Conclusão}
+\begin{frame}{Conclusão}
+Existem centenas de distribuições linux, basta  pesquisar para encontrar a mais adequada a seus objetivos, e que ao mesmo tempo se adéque ao ao hardware especifico que esta utilizando.
+
+\end{frame}
+
+%\section{Referencias}
+
+%\begin{frame}{Referencias}
+%\subsection{Referencias}
+%   \begin{itemize}
+%\item Browse \url{https://tecnologia.uol.com.br/especiais/ultnot/2005/08/18/ult2888u81.jhtm}
+%\item Browse \url{http://meupinguim.com/ubuntu-vs-mint-qual-melhor}
+%     \end{itemize}
+% \end{frame}
+\end{document}
